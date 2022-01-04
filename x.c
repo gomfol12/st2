@@ -2202,7 +2202,7 @@ xdrawline(Line line, int x1, int y1, int x2)
 			if (new.mode == ATTR_WDUMMY)
 				continue;
 			if (selected(x, y1))
-				new.mode ^= ATTR_REVERSE;
+				new.mode ^= ATTR_SELECTED;
 			if (i > 0 && ATTRCMP(base, new)) {
 				xdrawglyphfontspecs(specs, base, i, ox, y1, dmode);
 				specs += i;
