@@ -1960,7 +1960,7 @@ strhandle(void)
 				fprintf(stderr, "erresc: invalid foreground color %d\n", p);
 			else
 				redraw();
-			break;
+            return;
 		case 11: /* set background color */
 			if (narg < 2)
 				break;
@@ -1970,7 +1970,7 @@ strhandle(void)
 				fprintf(stderr, "erresc: invalid background color %d\n", p);
 			else
 				redraw();
-			break;
+            return;
 		case 12: /* set cursor color */
 			if (narg < 2)
 				break;
@@ -1980,7 +1980,7 @@ strhandle(void)
 				fprintf(stderr, "erresc: invalid cursor color %d\n", p);
 			else
 				redraw();
-			break;
+            return;
 		case 4: /* color set */
 			if (narg < 3)
 				break;
