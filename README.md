@@ -2,25 +2,25 @@
 My second fork of st
 
 ## patches
-alpha
-selectionbg alpha
-anysize
-blinking cursor
-bold is not bright
-boxdraw
-csi 22 23
-delkey
-desktopentry
-fix keyboard input
-font2
-osc 10 11 12
-selectioncolors
-title parsing
-undercurl
-vertcenter
-wide glyphs truncation fix
-xclearwin
-live reload of xresources
+* alpha
+* selectionbg alpha
+* anysize
+* blinking cursor
+* bold is not bright
+* boxdraw
+* csi 22 23
+* delkey
+* desktopentry
+* fix keyboard input
+* font2
+* osc 10 11 12
+* selectioncolors
+* title parsing
+* undercurl
+* vertcenter
+* wide glyphs truncation fix
+* xclearwin
+* live reload of xresources
 
 ## Install
         git clone https://github.com/gomfol12/st2.git
