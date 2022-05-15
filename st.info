@@ -194,6 +194,12 @@ st-mono| simpleterm monocolor,
 	Ms=\E]52;%p1%s;%p2%s\007,
 	Se=\E[2 q,
 	Ss=\E[%p1%d q,
+# User extensions
+	kLFT5=\E[1;5D,
+	kRIT5=\E[1;5C,
+	kBS5=\E[127;5u,
+	kBS2=\E[127;2u,
+	kSP2=\E[32;2u,
 
 st| simpleterm,
 	use=st-mono,
